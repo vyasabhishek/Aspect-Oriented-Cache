@@ -1,0 +1,23 @@
+﻿<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Postsharp.Cache.V2</id>
+    <version>1.0.0</version>
+    <authors>Abhishek Vyas</authors>
+    <owners>vyasabhishek</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Nuget package to implement aspect oriented caching using post sharp. Various supported cache providers. You can also write your own and extend it.</description>
+    <releaseNotes>Nuget package to implement aspect oriented caching using post sharp. Various supported cache providers. You can also write your own and extend it.</releaseNotes>
+    <copyright>Copyright 2015</copyright>
+    <tags>Cache Postsharp Aspect</tags>
+    <dependencies>
+      <dependency id="PostSharp" version="4.1.10" />
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System" targetFramework="net40" />
+      <frameworkAssembly assemblyName="System.Configuration" targetFramework="net40" />
+      <frameworkAssembly assemblyName="System.Core" targetFramework="net40" />
+      <frameworkAssembly assemblyName="System.Runtime.Caching" targetFramework="net40" />
+    </frameworkAssemblies>
+  </metadata>
+</package>
