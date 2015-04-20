@@ -1,4 +1,3 @@
-# Aspect-Oriented-Cache
 * 1. What is this library?
 This is based on Adam Bells earlier release of PostSharp.Cache
 This caching supports aspect oriented caching using Post Sharp.
