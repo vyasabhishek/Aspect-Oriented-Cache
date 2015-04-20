@@ -1,12 +1,10 @@
 # Aspect-Oriented-Cache
 * 1. What is this library?
-
 This is based on Adam Bells earlier release of PostSharp.Cache
 This caching supports aspect oriented caching using Post Sharp.
 I have used PostSharp 4.1.10 for implementing this cache.
 There are number of different cache providers supported by this.
 Based on needs, You can decide to store it In Process, In Memory or in Disk.
-
 
 * 2. Simple Example
 #+BEGIN_SRC CSHARP
@@ -16,6 +14,7 @@ public SomeExpensiveObject GetExpensiveObject(Guid userId)
 ..
 }
 #+END_SRC 
+
 * 3. Cache with invalidation:
 #+BEGIN_SRC CSHARP
 [Cache.Cacheable("UniqueKeyForThisMethod")] //cache using this key plus parameter(s)
