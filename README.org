@@ -38,7 +38,7 @@ Example:
 
 Other Cache Types include: CacheAspect.InProcessMemoryCache, CacheAspect.BTreeCache  
 
-You can also specify how much time we should keep object in cache in configu file.
+You can also specify how much time we should keep object in cache in configuration file.
 
 <add key="CacheAspect.TimeToLive" value="7:0:0:0"/>
 
