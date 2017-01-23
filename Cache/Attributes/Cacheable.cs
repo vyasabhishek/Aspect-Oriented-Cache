@@ -16,8 +16,17 @@ namespace CacheAspect
                 get { return _keyBuilder ?? (_keyBuilder = new KeyBuilder()); }
             }
 
+            private TimeSpan _timeToLive = TimeSpan.Zero;
             #region Constructors
-            
+
+            public Cacheable(String groupName, CacheSettings settings, String parameterProperty, String timeToLive)
+            {
+                KeyBuilder.GroupName = groupName;
+                KeyBuilder.Settings = settings;
+                KeyBuilder.ParameterProperty = parameterProperty;
+                _timeToLive = TimeSpan.Parse(timeToLive);
+            }
+
             public Cacheable(String groupName, CacheSettings settings, String parameterProperty)
             {
                 KeyBuilder.GroupName = groupName;
@@ -87,7 +96,9 @@ namespace CacheAspect
                 {
                     return false;
                 }
-                return DateTime.UtcNow - time > CacheService.TimeToLive;                
+
+                return _timeToLive == TimeSpan.Zero ? DateTime.UtcNow - time > CacheService.TimeToLive
+                    : DateTime.UtcNow - time > _timeToLive;
             }
 
         }

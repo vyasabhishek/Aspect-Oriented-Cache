@@ -123,14 +123,4 @@ namespace CacheAspect.Supporting
             return method.Invoke(null, new[] { o });
         }
     }
-
-    public enum CacheSettings
-    {
-        Default,
-        IgnoreParameters,
-        UseId,
-        UseProperty,
-        IgnoreTtl,
-        EntireGroup
-    }
 }

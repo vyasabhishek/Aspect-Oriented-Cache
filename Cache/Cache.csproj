@@ -60,6 +60,7 @@
     <Compile Include="ICache.cs" />
     <Compile Include="Implementations\InProcessMemoryCache.cs" />
     <Compile Include="Implementations\SystemMemoryCache.cs" />
+    <Compile Include="Supporting\CacheSettings.cs" />
     <Compile Include="Supporting\DateWrapper.cs" />
     <Compile Include="Supporting\KeyBuilder.cs" />
     <Compile Include="Implementations\NoCache.cs" />

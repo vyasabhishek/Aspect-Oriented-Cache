@@ -2,13 +2,13 @@
 <package >
   <metadata>
     <id>Postsharp.Cache.V2</id>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <authors>Abhishek Vyas</authors>
     <owners>vyasabhishek</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Nuget package to implement aspect oriented caching using post sharp. Various supported cache providers. You can also write your own and extend it.</description>
-    <releaseNotes>Nuget package to implement aspect oriented caching using post sharp. Various supported cache providers. You can also write your own and extend it.</releaseNotes>
-    <copyright>Copyright 2015</copyright>
+    <releaseNotes>Added functionality to specify Time to live at function level.</releaseNotes>
+    <copyright>Copyright 2016</copyright>
     <tags>Cache Postsharp Aspect</tags>
     <dependencies>
       <dependency id="PostSharp" version="4.1.10" />
