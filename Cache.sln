@@ -1,20 +1,21 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cache", "Cache\Cache.csproj", "{3AE5F5EA-13A2-45F0-AFA0-6975BD3937BB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FE8DEBE9-3B40-490B-8C7A-4BD2291BAF6D}"
 	ProjectSection(SolutionItems) = preProject
 		Cache.vsmdi = Cache.vsmdi
+		GeneratePackage.bat = GeneratePackage.bat
 		Local.testsettings = Local.testsettings
 		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestCache", "TestCache\TestCache.csproj", "{FC919A4D-05C7-44DC-BADF-6BBB0C1493E3}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{82E71AB5-3F47-4CBB-8A46-D8914513F90F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NugetExe", "NugetExe", "{82E71AB5-3F47-4CBB-8A46-D8914513F90F}"
 	ProjectSection(SolutionItems) = preProject
 		.nuget\NuGet.Config = .nuget\NuGet.Config
 		.nuget\NuGet.exe = .nuget\NuGet.exe
